@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		639250412A57262E00B41E93 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639250402A57262E00B41E93 /* CategoryTableViewController.swift */; };
 		63B9E4312A531C9D005E96B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9E4302A531C9D005E96B4 /* AppDelegate.swift */; };
 		63B9E4332A531C9D005E96B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9E4322A531C9D005E96B4 /* SceneDelegate.swift */; };
 		63B9E4352A531C9D005E96B4 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9E4342A531C9D005E96B4 /* TodoListViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		639250402A57262E00B41E93 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		63B9E42D2A531C9D005E96B4 /* ToDoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B9E4302A531C9D005E96B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63B9E4322A531C9D005E96B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		63D75E042A5467F10067E513 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				639250402A57262E00B41E93 /* CategoryTableViewController.swift */,
 				63B9E4342A531C9D005E96B4 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -175,6 +178,7 @@
 			files = (
 				63B9E4352A531C9D005E96B4 /* TodoListViewController.swift in Sources */,
 				63B9E4312A531C9D005E96B4 /* AppDelegate.swift in Sources */,
+				639250412A57262E00B41E93 /* CategoryTableViewController.swift in Sources */,
 				63B9E4332A531C9D005E96B4 /* SceneDelegate.swift in Sources */,
 				63B9E43B2A531C9D005E96B4 /* DataModel.xcdatamodeld in Sources */,
 			);
