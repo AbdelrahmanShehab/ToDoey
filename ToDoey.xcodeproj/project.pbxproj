@@ -19,6 +19,8 @@
 		63BC1B8C2A59993A00CD9814 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63BC1B8B2A59993A00CD9814 /* RealmSwift */; };
 		63BC1B902A599EA600CD9814 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC1B8F2A599EA600CD9814 /* Item.swift */; };
 		63BC1B922A599F4300CD9814 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC1B912A599F4300CD9814 /* Category.swift */; };
+		63BC1B952A59B7CC00CD9814 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 63BC1B942A59B7CC00CD9814 /* SwipeCellKit */; };
+		63BC1B972A59BF4400CD9814 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC1B962A59BF4400CD9814 /* SwipeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		63B9E4412A531C9F005E96B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BC1B8F2A599EA600CD9814 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		63BC1B912A599F4300CD9814 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		63BC1B962A59BF4400CD9814 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63BC1B8C2A59993A00CD9814 /* RealmSwift in Frameworks */,
+				63BC1B952A59B7CC00CD9814 /* SwipeCellKit in Frameworks */,
 				63BC1B8A2A59993A00CD9814 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +106,7 @@
 			children = (
 				639250402A57262E00B41E93 /* CategoryTableViewController.swift */,
 				63B9E4342A531C9D005E96B4 /* TodoListViewController.swift */,
+				63BC1B962A59BF4400CD9814 /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			packageProductDependencies = (
 				63BC1B892A59993A00CD9814 /* Realm */,
 				63BC1B8B2A59993A00CD9814 /* RealmSwift */,
+				63BC1B942A59B7CC00CD9814 /* SwipeCellKit */,
 			);
 			productName = ToDoey;
 			productReference = 63B9E42D2A531C9D005E96B4 /* ToDoey.app */;
@@ -165,6 +171,7 @@
 			mainGroup = 63B9E4242A531C9D005E96B4;
 			packageReferences = (
 				63BC1B882A59993900CD9814 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				63BC1B932A59B7CC00CD9814 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
 			);
 			productRefGroup = 63B9E42E2A531C9D005E96B4 /* Products */;
 			projectDirPath = "";
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BC1B972A59BF4400CD9814 /* SwipeTableViewController.swift in Sources */,
 				63B9E4352A531C9D005E96B4 /* TodoListViewController.swift in Sources */,
 				63B9E4312A531C9D005E96B4 /* AppDelegate.swift in Sources */,
 				639250412A57262E00B41E93 /* CategoryTableViewController.swift in Sources */,
@@ -427,6 +435,14 @@
 				kind = branch;
 			};
 		};
+		63BC1B932A59B7CC00CD9814 /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -439,6 +455,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 63BC1B882A59993900CD9814 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		63BC1B942A59B7CC00CD9814 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63BC1B932A59B7CC00CD9814 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 
