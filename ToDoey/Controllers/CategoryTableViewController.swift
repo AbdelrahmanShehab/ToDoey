@@ -51,14 +51,13 @@ class CategoryTableViewController: SwipeTableViewController {
         return cell
     }
 
-    // MARK: -  Table View Delegate Methods
+    // MARK: -  Table View Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "GoToItems", sender: nil)
-        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! TodoListViewController
+        let destinationVC = segue.destination as! TodoListViewController  
         if let indexPath = tableView.indexPathForSelectedRow {
             destinationVC.selectedCategory = categories?[indexPath.row]
         }

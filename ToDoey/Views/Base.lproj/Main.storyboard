@@ -102,7 +102,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="ToDoey" id="ecd-Bu-YFc">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="avb-aF-FPS">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="JPM-Gq-21T" id="kfJ-Aa-Y3q"/>
                             </connections>
